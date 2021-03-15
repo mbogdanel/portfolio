@@ -23,12 +23,14 @@
     @include respond(phone) {
       padding-bottom: 5rem;
     }
+    
 
     &__image {
       display: flex;
       height: 100%;
       align-items: center;
       justify-content: center;
+      
 
       @include respond(tab-land) {
         height: 100%;
@@ -36,6 +38,7 @@
       @include respond(tab-port-sm) {
         padding-bottom: 6.4rem;
       }
+      border-radius: 50%!important;
     }
 
     &__info {
