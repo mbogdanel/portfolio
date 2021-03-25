@@ -52,6 +52,7 @@
     &__image {
       width: 90%;
       margin: 0 auto;
+      
 
       @include respond(tab-land) {
         width: 100%;
@@ -59,7 +60,7 @@
       }
 
       & .thumbnail {
-        border: none;
+        border: 3px solid $secondary-color;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         transition: all 0.2s ease-out;
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
